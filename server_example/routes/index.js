@@ -44,11 +44,6 @@ async function insertData(db, id, title, rank, date) {
   return result;
 }
 
-/*
-;
-
-*/
-
 //get BGG data
 router.get('/', async function (req, res, next) {
   const db = await openDb();
